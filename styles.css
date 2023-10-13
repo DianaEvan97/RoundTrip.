@@ -1,0 +1,14 @@
+* {
+    padding-left: 10px;
+}
+
+h1 {
+    color: aqua;
+    opacity: calc(30);
+    background-color: darkslategrey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h2 {
+    padding-top: 20px;
+}
