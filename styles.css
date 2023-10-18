@@ -1,14 +1,68 @@
 * {
-    padding-left: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 h1 {
-    color: aqua;
-    opacity: calc(30);
-    background-color: darkslategrey;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    color: #99ebff;
+    font-size: 28px;
+    line-height: 28px;
+    background-color: black;
+    padding: 40px 55px;
 }
+
+main {
+    padding: 70px 55px;
+}
+
 h2 {
-    padding-top: 20px;
+    color: #222222;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+hr {
+    border-top: 1px solid #cccccc;
+}
+
+table {
+    margin: 20px 0;
+}
+
+td {
+    padding: 5px;
+    padding-left: 0;
+    padding-right: 36px;
+}
+
+.date {
+    color: #2e4a51;
+    font-size: 18px;
+}
+
+.duration {
+    color: #888888;
+    font-size: 14px;
+}
+
+.destination {
+    color: black;
+    font-size: 24px;
+}
+
+.total {
+    color: #888888;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.total .value {
+    color: black;
 }
